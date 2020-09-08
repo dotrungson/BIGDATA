@@ -10,7 +10,7 @@ public class hdfsListFile {
 	public static void main(String[] args) throws Exception {
 		
 		String hdfsUrl = "hdfs://172.19.0.2:8020";
-		String directoryPath = "/user/anonymous";
+		String directoryPath = "/user/anonymous/data";
 		Configuration conf = new Configuration();
 		conf.set("fs.defaultFS", hdfsUrl);
 		
